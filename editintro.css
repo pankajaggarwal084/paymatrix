@@ -1,0 +1,51 @@
+#cancelicon{
+    position: absolute;
+    left:68vw;top: 70px;
+    display: inline;
+}
+input{
+    width:44vw;
+    height:30px;
+    background-color: #f3f7f7;
+    margin: 0px 0px 0px 20px;
+}
+label{
+    font-size:14px;
+    color: #576871;
+    margin: 0px 0px 0px 20px;
+    width:578px ;
+    height:21px;
+}
+/* #entirepage{
+    width: 540px;
+    height: 742px;
+} */
+@media screen and (max-width:700px){
+    #cancelicon{
+        position: absolute;
+        left:90vw;
+    }
+ }
+ @media screen and (max-width:530px){
+    #cancelicon{
+        position: absolute;
+        left:105vw;
+    }
+ }
+@media screen and (max-width:1000px){
+    #cancel{
+          position: absolute;
+          left:400px;
+          width:20pc;
+          height: 40px;
+          /* min-width: 300.89px; */
+    }
+    #save{
+        position: absolute;
+        left:400px;
+        margin-top:3.5pc;
+        width: 594.3px;
+        height: 40px;
+        /* min-width: 300.89px; */
+    }
+}
